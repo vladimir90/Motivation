@@ -1,0 +1,471 @@
+@import "https://fonts.googleapis.com/css?family=Jaldi|Raleway";
+body {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden; }
+
+div {
+  box-sizing: border-box; }
+
+/*============border-top================*/
+#border-top {
+  border-top: 4px solid #ececec; }
+
+/*==============SECTION 1===============*/
+#section1 {
+  overflow: hidden;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+  #section1 .logo {
+    float: left;
+    width: 150px;
+    height: 40px; }
+    #section1 .logo img {
+      width: 150px;
+      height: 35px; }
+  #section1 .clear {
+    width: 260px;
+    float: left;
+    height: 50px; }
+  #section1 .nav {
+    float: right; }
+    #section1 .nav a {
+      text-decoration: none;
+      color: #474747;
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      display: block;
+      font-weight: 500; }
+    #section1 .nav li {
+      list-style-type: none;
+      float: left;
+      width: 100px;
+      text-align: center; }
+    #section1 .nav ul {
+      margin: 0;
+      padding: 0;
+      overflow: hidden; }
+    #section1 .nav a:hover {
+      color: #a5a5a5; }
+  #section1 .nav-p {
+    margin-bottom: 5px; }
+    #section1 .nav-p h1 {
+      color: #a5a5a5;
+      font-family: "Raleway", sans-serif;
+      font-size: 12px;
+      display: block; }
+    #section1 .nav-p li {
+      list-style-type: none;
+      float: left;
+      width: 100px;
+      text-align: center; }
+    #section1 .nav-p ul {
+      margin: 0;
+      padding-left: 125px;
+      overflow: hidden; }
+
+/*==============SECTION 2===============*/
+#section2 {
+  height: 480px;
+  background-image: url("../img/bg2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  clear: both;
+  padding-top: 402px; }
+  #section2 .sec2-block {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(64, 64, 64, 0.2);
+    width: 280px;
+    width: 100%; }
+    #section2 .sec2-block h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      color: #a5a5a5; }
+    #section2 .sec2-block h1 {
+      font-family: "Raleway", sans-serif;
+      font-size: 28px;
+      color: #fff; }
+  #section2 .sec2-block:hover {
+    width: 100%;
+    background-color: rgba(64, 64, 64, 0.4); }
+
+/*==============SECTION 3===============*/
+#section3 {
+  padding-top: 22px;
+  padding-left: 20px;
+  padding-bottom: 22px;
+  background-color: #f5f5f5; }
+  #section3 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #404040;
+    padding-bottom: 22px; }
+  #section3 p {
+    font-family: "Jaldi", sans-serif;
+    color: #404040;
+    font-size: 12px;
+    line-height: 20px; }
+
+/*==============SECTION 4===============*/
+#section4 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  overflow: hidden; }
+  #section4 .s4-block {
+    width: 300px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 7px;
+    overflow: hidden; }
+    #section4 .s4-block .s4-img {
+      float: left;
+      width: 50px; }
+      #section4 .s4-block .s4-img img {
+        width: 50px; }
+    #section4 .s4-block .s4-h1 {
+      width: 240px;
+      float: left;
+      margin-left: 8px; }
+      #section4 .s4-block .s4-h1 h1 {
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+        color: #474747;
+        line-height: 25px; }
+    #section4 .s4-block .s4-cont {
+      clear: both;
+      padding-top: 30px;
+      font-family: "Jaldi", sans-serif;
+      font-size: 12px;
+      line-height: 20px;
+      color: #474747; }
+    #section4 .s4-block .s4-link {
+      padding-top: 45px; }
+      #section4 .s4-block .s4-link a {
+        text-decoration: none;
+        color: #474747;
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        font-weight: 800; }
+
+/*============================================================
+==============================================================
+======================ABOUT PAGE==============================
+==============================================================
+=============================================================*/
+/*=============SECTION 2a===============================*/
+#section2a {
+  border-bottom: 8px solid #ececec; }
+  #section2a h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Raleway", sans-serif;
+    color: #474747;
+    font-size: 24px; }
+  #section2a p {
+    font-family: "Jaldi", sans-serif;
+    color: #a5a5a5;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 20px;
+    padding-bottom: 10px; }
+
+/*=============SECTION 3a================================*/
+#section3a {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  overflow: hidden; }
+  #section3a .s3a-block {
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 7px;
+    float: left; }
+    #section3a .s3a-block h1 {
+      color: #474747;
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
+      padding-bottom: 25px; }
+    #section3a .s3a-block h4 {
+      color: #a5a5a5;
+      font-family: "Jaldi", sans-serif;
+      font-size: 12px;
+      line-height: 20px;
+      padding-bottom: 20px; }
+    #section3a .s3a-block p {
+      color: #474747;
+      font-family: "Jaldi", sans-serif;
+      font-size: 12px;
+      line-height: 20px; }
+
+/*====================SECTION 4a=================*/
+#section4a {
+  border-top: 8px solid #ececec;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  overflow: hidden; }
+  #section4a .s4a-block {
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 7px;
+    float: left;
+    overflow: hidden; }
+    #section4a .s4a-block .s4a-img {
+      width: 300px;
+      height: 135px; }
+      #section4a .s4a-block .s4a-img img {
+        width: 300px;
+        height: 135px; }
+    #section4a .s4a-block .s4a-name {
+      float: left;
+      width: 148px;
+      box-sizing: border-box;
+      height: 70px;
+      padding-left: 15px;
+      padding-top: 20px; }
+      #section4a .s4a-block .s4a-name h1 {
+        color: #474747;
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        padding-bottom: 8px; }
+      #section4a .s4a-block .s4a-name h4 {
+        color: #a5a5a5;
+        font-size: 12px;
+        font-family: "Raleway", sans-serif; }
+    #section4a .s4a-block .s4a-num {
+      padding-top: 20px;
+      float: left;
+      width: 148px;
+      box-sizing: border-box;
+      text-align: right;
+      height: 70px;
+      padding-left: 15px; }
+      #section4a .s4a-block .s4a-num p {
+        color: #474747;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px; }
+    #section4a .s4a-block .s4a-cont {
+      padding-left: 15px; }
+      #section4a .s4a-block .s4a-cont p {
+        font-family: "Jaldi", sans-serif;
+        color: #a5a5a5;
+        font-size: 12px;
+        line-height: 20px; }
+
+/*========================================================
+==========================================================
+==========================================================
+=========================CONTACT PAGE=====================
+==========================================================
+=========================================================*/
+/*================SECTION C first=========================*/
+#sectionc-first {
+  width: 665px;
+  float: left;
+  /*==============SECTION 2C================*/
+  /*===============SECTION 3C================*/
+  /*===============SECTION 4C================*/ }
+  #sectionc-first #section2c {
+    border-bottom: 8px solid #ececec; }
+    #sectionc-first #section2c h1 {
+      color: #474747;
+      font-size: 24px;
+      font-family: "Raleway", sans-serif;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    #sectionc-first #section2c p {
+      color: #a5a5a5;
+      font-size: 12px;
+      font-family: "Jaldi", sans-serif;
+      line-height: 20px;
+      padding-bottom: 10px; }
+  #sectionc-first #section3c {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    #sectionc-first #section3c p {
+      color: #474747;
+      font-family: "Jaldi", sans-serif;
+      font-size: 12px;
+      line-height: 20px;
+      padding-bottom: 20px; }
+  #sectionc-first #section4c {
+    padding-bottom: 240px; }
+    #sectionc-first #section4c form input[type=text] {
+      padding-top: 12px;
+      padding-left: 12px;
+      padding-bottom: 12px;
+      margin-bottom: 10px;
+      width: 220px;
+      border: 1px solid #eeeeee;
+      background-color: #fafafa; }
+    #sectionc-first #section4c form input[type=email] {
+      padding-top: 12px;
+      padding-left: 12px;
+      padding-bottom: 12px;
+      margin-bottom: 10px;
+      width: 220px;
+      border: 1px solid #eeeeee;
+      background-color: #fafafa; }
+    #sectionc-first #section4c form textarea {
+      padding-top: 12px;
+      padding-left: 12px;
+      padding-bottom: 12px;
+      margin-bottom: 10px;
+      width: 495px;
+      height: 205px;
+      border: 1px solid #eeeeee;
+      background-color: #fafafa; }
+    #sectionc-first #section4c form input[type=submit] {
+      background-color: #fff;
+      border: 1px solid #eeeeee;
+      padding: 10px;
+      border-radius: 5px; }
+    #sectionc-first #section4c form input[type=submit]:hover {
+      background-color: #eeeeee; }
+    #sectionc-first #section4c form ::-webkit-input-placeholder {
+      color: #a5a5a5;
+      font-size: 12px;
+      font-family: "Raleway", sans-serif; }
+
+/*================SECTION C second=========================*/
+#sectionc-second {
+  width: 230px;
+  float: left;
+  margin-left: 43px; }
+  #sectionc-second .s5c-block {
+    padding-bottom: 2px dotted #474747; }
+    #sectionc-second .s5c-block h3 {
+      padding-top: 30px;
+      color: #474747;
+      font-size: 12px;
+      font-family: "Raleway", sans-serif; }
+    #sectionc-second .s5c-block p {
+      padding-top: 15px;
+      color: #a5a5a5;
+      font-size: 12px;
+      font-family: "Jaldi", sans-serif;
+      line-height: 20px; }
+    #sectionc-second .s5c-block ul li {
+      list-style-type: none;
+      padding-top: 10px; }
+    #sectionc-second .s5c-block a {
+      text-decoration: none;
+      color: #474747;
+      font-family: "Jaldi", sans-serif;
+      font-size: 12px;
+      margin-right: 10px; }
+
+/*=============================================
+===============================================
+=====================SECTION QUOTES================
+===============================================
+==============================================*/
+/*===================SECTION 1Q=====================*/
+#section1q {
+  border-bottom: 8px solid #ececec; }
+  #section1q h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Raleway", sans-serif;
+    color: #474747;
+    font-size: 24px;
+    text-align: center; }
+  #section1q p {
+    font-family: "Jaldi", sans-serif;
+    color: #a5a5a5;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 20px;
+    padding-bottom: 10px; }
+  #section1q .qBlock1, #section1q .qBlock2 {
+    width: 50%;
+    float: left; }
+    #section1q .qBlock1 h3, #section1q .qBlock2 h3 {
+      padding-top: 20px;
+      font-family: "Raleway", sans-serif;
+      color: #474747;
+      font-size: 20px;
+      text-align: center; }
+    #section1q .qBlock1 ul, #section1q .qBlock2 ul {
+      border-top: 1px dotted #a5a5a5;
+      padding-top: 20px;
+      list-style-type: none; }
+    #section1q .qBlock1 a, #section1q .qBlock2 a {
+      font-family: "Jaldi", sans-serif;
+      color: #a5a5a5;
+      font-size: 18px;
+      line-height: 20px;
+      text-decoration: none; }
+    #section1q .qBlock1 .more, #section1q .qBlock2 .more {
+      color: #474747;
+      font-weight: 800; }
+    #section1q .qBlock1 a:hover, #section1q .qBlock2 a:hover {
+      text-decoration: underline; }
+
+/*================SECTION 2q=======================*/
+#section2q {
+  clear: both; }
+  #section2q .moreP {
+    font-family: "Jaldi", sans-serif;
+    color: #474747;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    border: 1px solid #a5a5a5;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px; }
+  #section2q .moreP:hover {
+    color: #a5a5a5; }
+  #section2q h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    color: #474747;
+    font-size: 24px; }
+  #section2q .s2q-pic {
+    width: 100%; }
+    #section2q .s2q-pic .picBlock {
+      border: 1px solid #a5a5a5;
+      float: left;
+      width: 200px;
+      margin: 30px 10px 30px 10px; }
+      #section2q .s2q-pic .picBlock .picB1 {
+        height: 150px;
+        width: 200px; }
+        #section2q .s2q-pic .picBlock .picB1 img {
+          width: 199px;
+          height: 150px; }
+      #section2q .s2q-pic .picBlock .picB2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        width: 200px; }
+        #section2q .s2q-pic .picBlock .picB2 a {
+          text-decoration: none; }
+          #section2q .s2q-pic .picBlock .picB2 a img {
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 20px; }
+
+/*=======================FOOTER======================*/
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f7f7f7;
+  border-top: 4px solid #ececec; }
+  #footer .copy p {
+    font-family: "Raleway", sans-serif;
+    color: #474747;
+    font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
